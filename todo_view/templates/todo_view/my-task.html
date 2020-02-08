@@ -1,0 +1,19 @@
+{% extends "todo_view/base.html" %}
+{% block content %}
+<h3> The task to be completed</h3>
+{% for task in tasks%}
+{% if task.is_completed == False %}
+    <div class="content-section">
+      <div class="media">
+        <div class="">
+          <h4 class="account-heading">{{ task.title }}</h4>
+          <h6 class="text-secondary" > {{ task.assignee}}</h6>
+          <p class="text-secondary">{{ task.due_date }}  <a type="button" class="btn btn-success btn-sm" href={% url 'completedtask' task.id %}>Done</a></p>
+          </br>
+        </div>
+      </div>
+      
+    </div>
+    {% endif %}
+   {% endfor %}
+{% endblock content %}

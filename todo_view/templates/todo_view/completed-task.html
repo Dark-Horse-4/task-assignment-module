@@ -1,0 +1,19 @@
+{% extends "todo_view/base.html" %}
+{% block content %}
+<h3> The task to be completed</h3>
+{% for task in tasks%}
+{% if task.is_completed == True %}
+    <div class="content-section">
+      <div class="media">
+        <div class="">
+          <h4 class="account-heading">{{ task.title }} Completed...!</h4>
+          <h6 class="text-secondary" > {{ task.assignee}}</h6>
+          <p class="text-secondary">{{ task.description }}  </p>
+          </br>
+        </div>
+      </div>
+      
+    </div>
+    {% endif %}
+   {% endfor %}
+{% endblock content %}

@@ -1,0 +1,106 @@
+
+body {
+    
+    color: #333333;
+    margin-top: 5rem;
+  }
+  
+
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #444444;
+  }
+  
+  ul {
+    margin: 0;
+  }
+
+  .bg-steel {
+    background-color: #03111b;
+  }
+  
+  .site-header .navbar-nav .nav-link {
+    color: #cbd5db;
+  }
+  
+  .site-header .navbar-nav .nav-link:hover {
+    color: #e9e9f0;
+  }
+  
+  .site-header .navbar-nav .nav-link.active {
+    font-weight: 500;
+  }
+.sidenav {
+    width: auto;
+    height: auto;
+    position: fixed;
+    z-index: 1;
+    top: 20px;
+    left: 10px;
+    background: #eee;
+    overflow-x: hidden;
+    padding: 8px 0;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(15, 52, 82);
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #02111d;
+  }
+  
+  .blockcontent{
+    background-image: url(/media/profile_pics/IMG_7511.JPG);
+    height: 600px!important;
+    width: auto;
+    margin-right:40px ;
+    margin-left: 320px ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow-x: hidden!important;
+    overflow-y: hidden!important;
+  }
+  .mainblock{
+    height: auto;
+    width: 100%;
+    margin-left: 2%;
+  }
+  
+  .sidebarcontent{
+    height: 100%;
+    width: 260px;
+    padding: 10px;
+    border-radius: 3%;
+    float: left ;
+    margin: 5px;
+  }
+  
+  .table-head{
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  .table-row{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .right{
+    margin-left: 90%;
+  }
+
+  .image{
+    height:75px;
+    width: 75px;
+  }
+
+
+  
+  
